@@ -1,0 +1,22 @@
+.pagination {
+    span {
+        background: silver;
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        text-align: center;
+        line-height: 30px;
+        margin: 5px;
+        cursor: pointer;
+    }
+    span.active {
+        background: blue;
+    }
+    span.separator {
+        background-color: transparent;
+        cursor: default;
+    }
+    span.wide-length {
+        width: 50px
+    }
+}
